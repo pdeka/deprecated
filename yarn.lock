@@ -5957,10 +5957,10 @@ gatsby-telemetry@^1.1.56:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-theme-mosman@0.0.5-alpha.1:
-  version "0.0.5-alpha.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-mosman/-/gatsby-theme-mosman-0.0.5-alpha.1.tgz#15a849615b6d102f99489f6a0d51a2874b870d05"
-  integrity sha512-edDlDUUCeK/P+eMPO5sjDc0cNee+/VNgnI272wEIebSq3LuYqPDIXZ5OY3vaAusSe+ZxDWLiYY/y0VhbRvP8JA==
+gatsby-theme-mosman@0.0.5-alpha.3:
+  version "0.0.5-alpha.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-mosman/-/gatsby-theme-mosman-0.0.5-alpha.3.tgz#a1ef6d972b33795037218983a8f39b39c5ea1672"
+  integrity sha512-MkhUx3Qv7KVLHwfbDYaf1JzfrqJ9vl2ghCmU0fSHvAGlzB8m8nHA3Kx6mZJxuhut91+slHvw+2riaAjtaTPjng==
   dependencies:
     autoprefixer "^9.5.1"
     axios "~0.18.0"
@@ -5985,7 +5985,7 @@ gatsby-theme-mosman@0.0.5-alpha.1:
     gatsby-source-prismic-graphql "^3.4.0-beta.2"
     gatsby-source-youtube-v2 "^1.0.1"
     html-react-parser "^0.9.1"
-    kenekt-helper "^0.0.3-alpha.2"
+    kenekt-helper "^0.0.3-alpha.4"
     kenekt-i18n "^0.0.3-alpha.1"
     kenekt-meta-data-query "^0.0.1-alpha.0"
     kenekt-prismic "^0.0.1-alpha.0"
@@ -8036,10 +8036,10 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
-kenekt-helper@^0.0.3-alpha.2:
-  version "0.0.3-alpha.2"
-  resolved "https://registry.yarnpkg.com/kenekt-helper/-/kenekt-helper-0.0.3-alpha.2.tgz#c2ae535347586e2b121bb15a9bfbd6d58c4d12f6"
-  integrity sha512-G8i4nE4zEYR+7XR8idTQGFzGWGWjJAbIaPiK/Y7ihAvqiQ61XPtafJpMI6oY6FesGwMmcbt188WUsTJNt+do8A==
+kenekt-helper@^0.0.3-alpha.4:
+  version "0.0.3-alpha.4"
+  resolved "https://registry.yarnpkg.com/kenekt-helper/-/kenekt-helper-0.0.3-alpha.4.tgz#65f79f60113b9bd304307a06f555b5e31651672b"
+  integrity sha512-5SQml/9EavZfY3RuVcGoaQXbKWmdhm9u/aRTtl6ygLA4WM9JlSSn7gr6Kn34t5gS1i0CkHDAaXZBDRoLTUFa+Q==
   dependencies:
     axios "~0.18.0"
     classnames "~2.2.5"
