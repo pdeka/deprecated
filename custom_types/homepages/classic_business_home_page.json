@@ -1,0 +1,155 @@
+{
+  "Main" : {
+    "header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "paragraph, strong, em",
+        "label" : "header",
+        "placeholder" : "header"
+      }
+    },
+    "header_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "header image"
+      }
+    },
+    "summary" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "summary",
+        "placeholder" : "summary"
+      }
+    }
+  },
+  "About Section" : {
+    "about_header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "paragraph, strong, em",
+        "label" : "about header",
+        "placeholder" : "about header"
+      }
+    },
+    "about_summary" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, strong, em, hyperlink",
+        "label" : "about summary",
+        "placeholder" : "about summary"
+      }
+    },
+    "find_out_more_link" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "find out more link",
+        "placeholder" : "find out more link"
+      }
+    },
+    "about_images" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "image" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "image"
+            }
+          }
+        },
+        "label" : "about images"
+      }
+    }
+  },
+  "Services Section" : {
+    "services_section_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "services section image"
+      }
+    },
+    "services_section_header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "paragraph, strong, em",
+        "label" : "services section header",
+        "placeholder" : "services section header"
+      }
+    }
+  },
+  "Case Study Section" : {
+    "case_studies_header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "paragraph, strong, em",
+        "label" : "case studies header",
+        "placeholder" : "case studies header"
+      }
+    },
+    "see_more_link" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "see more link",
+        "placeholder" : "see more link"
+      }
+    }
+  },
+  "Contact Section" : {
+    "contact_us_header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "paragraph, strong, em",
+        "label" : "contact us header",
+        "placeholder" : "contact us header"
+      }
+    }
+  },
+  "Meta Data": {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "url",
+        "placeholder" : "url",
+        "useAsTitle" : true
+      }
+    },
+    "seo_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo title",
+        "placeholder" : "seo title"
+      }
+    },
+    "seo_description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo description",
+        "placeholder" : "seo description"
+      }
+    },
+    "seo_keywords" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo keywords",
+        "placeholder" : "seo keywords"
+      }
+    },
+    "social_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 940,
+          "height" : 788
+        },
+        "thumbnails" : [ ],
+        "label" : "social image"
+      }
+    }
+  }
+}

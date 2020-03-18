@@ -1,0 +1,254 @@
+{
+  "Main" : {
+    "video_poster_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "video poster image"
+      }
+    },
+    "video" : {
+      "type" : "Link",
+      "config" : {
+        "label" : "video",
+        "placeholder" : "video"
+      }
+    }
+  },
+  "Splash" : {
+    "splash_text" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "top_text" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "top_text"
+            }
+          },
+          "title" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "title"
+            }
+          },
+          "bottom_text" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "bottom_text"
+            }
+          }
+        },
+        "label" : "splash_text"
+      }
+    },
+    "splash_button_text" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "splash_button_text",
+        "placeholder" : "e.g. Contact Me"
+      }
+    }
+  },
+  "About Section" : {
+    "about_header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "about header"
+      }
+    },
+    "about_button" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "about button",
+        "placeholder" : "about button"
+      }
+    },
+    "about_summary" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, strong, em, hyperlink",
+        "label" : "about summary",
+        "placeholder" : "multi para"
+      }
+    },
+    "about_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 800,
+          "height" : 800
+        },
+        "thumbnails" : [ ],
+        "label" : "about image"
+      }
+    }
+  },
+  "Team Section" : {
+    "team_header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "team header"
+      }
+    },
+    "team_button" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "team button",
+        "placeholder" : "team button"
+      }
+    },
+    "team_summary" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, strong, em, hyperlink",
+        "label" : "team summary",
+        "placeholder" : "multi para"
+      }
+    },
+    "team_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "team image"
+      }
+    }
+  },
+  "Featured Video Section" : {
+    "featured_video_header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "featured video header",
+        "placeholder" : "featured video header"
+      }
+    },
+    "featured_video_summary" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, strong, em, hyperlink",
+        "label" : "featured video summary",
+        "placeholder" : "featured video summary"
+      }
+    },
+    "featured_video" : {
+      "type" : "Embed",
+      "config" : {
+        "label" : "featured video",
+        "placeholder" : "featured video"
+      }
+    }
+  },
+  "Testimonial Section" : {
+    "testimonial_header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "testimonial header"
+      }
+    },
+    "testimonial_button" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "testimonial button",
+        "placeholder" : "testimonial button"
+      }
+    },
+    "testimonial_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "testimonial image"
+      }
+    }
+  },
+  "Meta Data": {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "url",
+        "placeholder" : "url",
+        "useAsTitle" : true
+      }
+    },
+    "seo_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo title",
+        "placeholder" : "seo title"
+      }
+    },
+    "seo_description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo description",
+        "placeholder" : "seo description"
+      }
+    },
+    "seo_keywords" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo keywords",
+        "placeholder" : "seo keywords"
+      }
+    },
+    "social_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 940,
+          "height" : 788
+        },
+        "thumbnails" : [ ],
+        "label" : "social image"
+      }
+    }
+  },
+  "Services Section" : {
+    "services_header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "services header",
+        "placeholder" : "services header"
+      }
+    },
+    "services_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "services image"
+      }
+    },
+    "services" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "name" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "name",
+              "placeholder" : "name"
+            }
+          },
+          "icon" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "icon",
+              "placeholder" : "Icons from these ones https://material.io/resources/icons"
+            }
+          },
+          "summary" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "summary",
+              "placeholder" : "summary"
+            }
+          }
+        },
+        "label" : "services"
+      }
+    }
+  }
+}

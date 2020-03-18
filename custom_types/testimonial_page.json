@@ -1,0 +1,106 @@
+{
+  "Main" : {
+    "header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "header",
+        "placeholder" : "header"
+      }
+    },
+    "summary" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "summary",
+        "placeholder" : "summary"
+      }
+    },
+    "header_background_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "header background image"
+      }
+    },
+    "mobile_header" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "mobile header"
+      }
+    },
+    "youtube_articles" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "title" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "title"
+            }
+          },
+          "description" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "description"
+            }
+          },
+          "publish_date" : {
+            "type" : "Date",
+            "config" : {
+              "label" : "publish date"
+            }
+          },
+          "video" : {
+            "type" : "Link",
+            "config" : {
+              "label" : "video"
+            }
+          }
+        },
+        "label" : "youtube articles"
+      }
+    }
+  },
+  "Meta Data" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "url",
+        "placeholder" : "url",
+        "useAsTitle" : true
+      }
+    },
+    "seo_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo title",
+        "placeholder" : "seo title"
+      }
+    },
+    "seo_description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo description",
+        "placeholder" : "seo description"
+      }
+    },
+    "seo_keywords" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo keywords",
+        "placeholder" : "seo keywords"
+      }
+    },
+    "social_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 940,
+          "height" : 788
+        },
+        "thumbnails" : [ ],
+        "label" : "social image"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "Main" : {
+    "header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "header"
+      }
+    },
+    "summary" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "summary"
+      }
+    }
+  },
+  "Meta Data" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "url",
+        "placeholder" : "url",
+        "useAsTitle" : true
+      }
+    },
+    "seo_title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo title",
+        "placeholder" : "seo title"
+      }
+    },
+    "seo_description" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo description",
+        "placeholder" : "seo description"
+      }
+    },
+    "seo_keywords" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "seo keywords",
+        "placeholder" : "seo keywords"
+      }
+    },
+    "social_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 940,
+          "height" : 788
+        },
+        "thumbnails" : [ ],
+        "label" : "social image"
+      }
+    }
+  }
+}

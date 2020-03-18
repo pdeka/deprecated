@@ -1,0 +1,56 @@
+{
+  "Main" : {
+    "testimonial" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "image" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "Image"
+            }
+          },
+          "author" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "author",
+              "placeholder" : "Author"
+            }
+          },
+          "quote" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "quote",
+              "placeholder" : "quote"
+            }
+          },
+          "description" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "description",
+              "placeholder" : "description"
+            }
+          },
+          "date" : {
+            "type" : "Date",
+            "config" : {
+              "label" : "date",
+              "placeholder" : "date"
+            }
+          },
+          "external_link" : {
+            "type" : "Link",
+            "config" : {
+              "allowTargetBlank" : true,
+              "label" : "external link",
+              "placeholder" : "external link"
+            }
+          }
+        },
+        "label" : "testimonial"
+      }
+    }
+  }
+}
