@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Prabin Deka",
   "license": "MIT",
+  "scripts": {
+    "update:libs": "rm -rf node_modules package-lock.json yarn.lock && npm install"
+  },
   "dependencies": {
     "gatsby": "^2.19.7",
     "react": "^16.12.0",
