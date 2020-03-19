@@ -9,11 +9,5 @@
     "build": "node site-config.js && source .env && gatsby build",
     "serve": "node site-config.js && source .env && gatsby serve",
     "site-config": "node site-config.js"
-  },
-  "dependencies": {
-    "gatsby": "^2.19.7",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "gatsby-theme-mosman": "0.0.5-alpha.3"
   }
 }

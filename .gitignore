@@ -92,5 +92,5 @@ yarn-error.log
 # Local Netlify folder
 .netlify
 .idea/
-.netlify.toml
+netlify.toml
 .env
