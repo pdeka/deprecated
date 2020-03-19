@@ -9,4 +9,4 @@ if (_.isEmpty(argv.theme) || _.includes(["mosman", "narrabeen", "randwick"], arg
 
 console.log("Running script to produce site config. Theme: " + argv.theme);
 
-prodConfiguration(apiEndpoint, argv.theme, 8001);
+prodConfiguration(apiEndpoint, argv.theme, 8000);
