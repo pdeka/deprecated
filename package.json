@@ -5,7 +5,7 @@
   "author": "Prabin Deka",
   "license": "MIT",
   "scripts": {
-    "update:libs": "rm -rf node_modules package-lock.json yarn.lock && npm install"
+    "update": "rm -rf node_modules package-lock.json yarn.lock && npm install"
   },
   "dependencies": {
     "gatsby": "^2.19.7",
