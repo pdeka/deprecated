@@ -22,7 +22,7 @@
       }
     }
   },
-  "Header Cards" : {
+  "Header Card" : {
     "title_card_header" : {
       "type" : "Text",
       "config" : {

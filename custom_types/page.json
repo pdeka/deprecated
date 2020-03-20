@@ -341,6 +341,28 @@
               }
             },
             "repeat" : { }
+          },
+          "case_study" : {
+            "type" : "Slice",
+            "fieldset" : "Case Study",
+            "description" : "case study with header and optional summary",
+            "icon" : "picture_in_picture",
+            "display" : "list",
+            "non-repeat" : {
+              "header" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "header"
+                }
+              },
+              "summary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "summary"
+                }
+              }
+            },
+            "repeat" : { }
           }
         }
       }
