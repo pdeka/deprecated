@@ -6,6 +6,13 @@
 ```
 npm install
 ```
+- Run site-config to produce the production configuration files so that code can be deployed to netlify. 
+This is done automatically by ./cratev2 in Kroxy. You need to run it just once in the life cycle of the project. However, it is idempotent and can be run any number of times. 
+
+```
+npm site-config
+```
+
 
 - Start development server on port 8000 using:
 ```
