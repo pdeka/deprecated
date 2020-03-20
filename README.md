@@ -6,8 +6,8 @@
 ```
 npm install
 ```
-- Run site-config to produce the production configuration files so that code can be deployed to netlify. 
-This is done automatically by ./cratev2 in Kroxy. You need to run it just once in the life cycle of the project. However, it is idempotent and can be run any number of times. 
+- Run site-config to produce the production configuration files so that code can be deployed to netlify.
+This is done automatically by ./cratev2 in Kroxy. You need to run it just once in the life cycle of the project. However, it is idempotent and can be run any number of times.
 
 ```
 npm site-config
@@ -36,3 +36,10 @@ npm run update
 However, if you are planning to move to a BREAKING version, you have to change the package version of gatsby-theme-<theme name> yourself, in the package.json.
 
 A BREAKING change is defined as a change in the code that expects a corresponding manual change to the Prismic repo before the site can be run with the new code.
+
+# Troubleshooting
+
+- Sometimes the most recent version of a theme is not applied automatically. Run the following. Its a 'switch it off and then on' script. 
+```
+npm run update
+```
