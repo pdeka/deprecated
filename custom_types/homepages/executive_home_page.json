@@ -130,6 +130,13 @@
         },
         "label" : "featured_videos"
       }
+    },
+    "show_properties_link" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "show properties link",
+        "placeholder" : "/properties"
+      }
     }
   },
   "Testimonials Section" : {
