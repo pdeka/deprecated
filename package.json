@@ -5,7 +5,7 @@
   "author": "Prabin Deka",
   "license": "MIT",
   "scripts": {
-    "update": "rm -rf node_modules package-lock.json yarn.lock && npm install"
+    "update": "rm -rf node_modules package-lock.json yarn.lock && yarn install"
   },
   "dependencies": {
     "kenekt-site-configuration": "~ 0.0.3-alpha"
