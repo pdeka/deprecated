@@ -90,8 +90,14 @@ npm run update
 ```
 
 -  Look at whether you have the right version of the theme
-
 ```
 thepropertydomainv2
 ➜ npm list |grep narrabeen
+```
+
+- Build complains when I do an npm run narrabeen even though it have not changed anything
+
+Sometimes a rebuild of the lib dists are required. Just stop and start
+```
+lerna run --stream watch:libs
 ```
