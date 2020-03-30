@@ -502,6 +502,43 @@
       }
     }
   },
+  "Auth" : {
+    "authenticate_properties_with_password" : {
+      "type" : "Boolean",
+      "config" : {
+        "placeholder_false" : "no",
+        "placeholder_true" : "yes",
+        "default_value" : false,
+        "label" : "authenticate properties with password (If yes add users)"
+      }
+    },
+    "users" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "full_name" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "full name"
+            }
+          },
+          "email_address" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "email address"
+            }
+          },
+          "password" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "password"
+            }
+          }
+        },
+        "label" : "users"
+      }
+    }
+  },
   "SEO" : {
     "default_keywords" : {
       "type" : "Text",
