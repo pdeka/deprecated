@@ -79,7 +79,8 @@
           "documents" : [ ],
           "multi_image" : [ ],
           "video_collection" : [ ],
-          "iframe" : [ ]
+          "iframe" : [ ],
+          "youtube_section" : [ ]
         },
         "choices" : {
           "text" : {
@@ -359,6 +360,31 @@
                 "type" : "Text",
                 "config" : {
                   "label" : "summary"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "youtube_section" : {
+            "type" : "Slice",
+            "fieldset" : "Youtube Section",
+            "description" : "List of youtube videos",
+            "icon" : "camera_roll",
+            "display" : "list",
+            "non-repeat" : {
+              "header" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "header",
+                  "placeholder" : "Header"
+                }
+              },
+              "summary" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em, hyperlink",
+                  "label" : "summary",
+                  "placeholder" : "Summary"
                 }
               }
             },
