@@ -232,7 +232,7 @@
     "website_developer_brand" : {
       "type" : "Select",
       "config" : {
-        "options" : [ "KENEKT", "PAIG" ],
+        "options" : [ "KENEKT", "PAIG", "PAIG(LITE)" ],
         "default_value" : "KENEKT",
         "label" : "website developer brand (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
