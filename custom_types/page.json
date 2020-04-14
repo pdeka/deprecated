@@ -379,12 +379,11 @@
                   "placeholder" : "Header"
                 }
               },
-              "summary" : {
-                "type" : "StructuredText",
+              "playlist_id" : {
+                "type" : "Text",
                 "config" : {
-                  "multi" : "paragraph, strong, em, hyperlink",
-                  "label" : "summary",
-                  "placeholder" : "Summary"
+                  "label" : "playlist id",
+                  "placeholder" : "E.g. youtube playlist ID"
                 }
               }
             },
