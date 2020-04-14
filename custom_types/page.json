@@ -379,6 +379,14 @@
                   "placeholder" : "Header"
                 }
               },
+              "summary" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em, hyperlink",
+                  "label" : "summary",
+                  "placeholder" : "Summary"
+                }
+              },
               "playlist_id" : {
                 "type" : "Text",
                 "config" : {
