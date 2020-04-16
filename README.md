@@ -1,78 +1,41 @@
-# How to deploy a new site?
+# How to change code in the shell?
 
 - See: [Kenekt Admin](https://admin.kenekt.com.au)
 
 - Clone site after it has been produced using Kenekt Admin. The create process invites you to be a collaborator in the git repo produced on create.
-
-- Start development server on port 8000 using:
 ```
-npm run develop
+git clone https://github.com/pdeka/{your repo name here}.git
 ```
 
-- Build production assets and run server using:
+- Run Yarn Install
 ```
-npm run build
-npm run serve
-```
-
-# How to update an existing site?
-
-- See: [Kenekt Admin](https://admin.kenekt.com.au)
-
-You can update to the latest non-breaking version of the site by just running a
-
-```
-yarn run update
-```
-
-However, if you are planning to move to a BREAKING version, you have to change the package version of gatsby-theme-<theme name> yourself, in the package.json.
-
-A BREAKING change is defined as a change in the code that expects a corresponding manual change to the Prismic repo before the site can be run with the new code.
-
-# Update old site to new kenekt-sites MANUALLY
-
-* Manually clone the repo
-```
-scripts/.work
-➜ git clone https://github.com/pdeka/kenekt-site.git thepropertydomainv2
-```
-
-* Edit prismic-configuration.js in the repo.
-
-* Run
-```
+cd {your repo name here}
 yarn install
 ```
 
-* Create site config
+- Create site config
 ```
-thepropertydomainv2
-➜ node site-config.js --theme=narrabeen
+node site-config.js --theme={your theme name here; can be 'mosman', 'narrabeen', 'randwick'} --themeversion={theme version here}
 ```
 
-* Run yarn install again
+- Make the changes you want to the SCSS and JS files.
 
-* Pull the the old code from GitHub
-
-* Copy shadow files into new repo
-
-* Test
+- Start development server on port 8000 using:
 ```
-npm (or yarn) run develop
+gatsby develop
 ```
+- Test changes
+- Build production assets and run server using:
 ```
-npm run build
+gatsby build
+gatsby serve
 ```
+- Test changes
 
 * Push to GitHub
 ```
-git remote remove origin
-git remote add origin https://github.com/pdeka/thepropertydomain.git
-git add .
-git commit -m "Initial Revision"
-git push -f origin master
+git push origin master
 ```
-
 
 # Troubleshooting
 
