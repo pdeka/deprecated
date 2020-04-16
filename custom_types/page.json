@@ -386,6 +386,13 @@
                   "label" : "summary",
                   "placeholder" : "Summary"
                 }
+              },
+              "playlist_id" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "playlist id",
+                  "placeholder" : "E.g. youtube playlist ID"
+                }
               }
             },
             "repeat" : { }
