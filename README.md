@@ -1,3 +1,19 @@
+# Versions
+```
+➜
+node --version                                                                                                                                                $(spaceship_rprompt)
+v12.16.1
+
+smsfrealestatev2 on  master [✘!] is 📦 v1.0.0 via ⬢ v12.16.1
+➜ yarn --version
+1.22.4
+
+smsfrealestatev2 on  master [✘!] is 📦 v1.0.0 via ⬢ v12.16.1
+➜ git --version
+git version 2.23.0
+
+```
+
 # How to change code in the shell?
 
 - See: [Kenekt Admin](https://admin.kenekt.com.au)
