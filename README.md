@@ -16,6 +16,7 @@ yarn install
 - Create site config
 ```
 node site-config.js --theme={your theme name here; can be 'mosman', 'narrabeen', 'randwick'} --themeversion={theme version here}
+source .env
 ```
 
 - Make the changes you want to the SCSS and JS files.
