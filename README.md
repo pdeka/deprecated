@@ -51,6 +51,8 @@ gatsby serve
 
 * Push to GitHub
 ```
+git add . 
+git commit -m "Add your message"
 git push origin master
 ```
 
