@@ -401,6 +401,14 @@
         "label" : "max price (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
+    "sort_by" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "price-asc", "price-desc", "date-asc", "date-desc" ],
+        "default_value" : "price-asc",
+        "label" : "sort by"
+      }
+    },
     "listed_suburbs" : {
       "type" : "Group",
       "config" : {
