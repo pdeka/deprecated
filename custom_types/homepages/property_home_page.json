@@ -16,12 +16,45 @@
         "label" : "header image"
       }
     },
-    "video": {
-      "config": {
-        "label": "video link",
-        "placeholder": "Enter video link..."
+    "video" : {
+      "config" : {
+        "label" : "video link",
+        "placeholder" : "Enter video link..."
       },
-      "type": "Link"
+      "type" : "Link"
+    }
+  },
+  "What We Do Section" : {
+    "what_we_do_header" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "strong, em",
+        "label" : "what we do header",
+        "placeholder" : "What We Do"
+      }
+    },
+    "what_we_do_summary" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, strong, em, hyperlink",
+        "label" : "what we do summary",
+        "placeholder" : "Summary"
+      }
+    },
+    "what_we_do_details_link" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "what we do details link",
+        "placeholder" : "Internal Link"
+      }
+    },
+    "what_we_do_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "what we do image"
+      }
     }
   },
   "Featured Property Section" : {
@@ -65,7 +98,7 @@
       }
     }
   },
-  "About Section" : {
+  "Why Us Section" : {
     "about_header" : {
       "type" : "StructuredText",
       "config" : {
@@ -124,7 +157,7 @@
       }
     }
   },
-  "Meta Data": {
+  "SEO" : {
     "uid" : {
       "type" : "UID",
       "config" : {
