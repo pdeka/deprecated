@@ -462,13 +462,6 @@
         "placeholder" : "e.g. AIzaSyDYcCAELv8EBv7..."
       }
     },
-    "youtube_channel_id" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "youtube channel ID (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)",
-        "placeholder" : "E.g. UCWVdV_ICBaALEmHkDDb4h..."
-      }
-    },
     "facebook_review_key" : {
       "type" : "Text",
       "config" : {

@@ -1,5 +1,5 @@
 {
-  "Main" : {
+  "Page Details" : {
     "title" : {
       "type" : "Text",
       "config" : {
@@ -44,13 +44,6 @@
       "config" : {
         "label" : "price",
         "placeholder" : "e.g. From Price"
-      }
-    },
-    "external_link" : {
-      "type" : "Link",
-      "config" : {
-        "label" : "external link",
-        "placeholder" : "Adding a link would mean that the post will be linked to the linked mentioned."
       }
     },
     "body" : {
@@ -379,14 +372,6 @@
                   "placeholder" : "Header"
                 }
               },
-              "summary" : {
-                "type" : "StructuredText",
-                "config" : {
-                  "multi" : "paragraph, strong, em, hyperlink",
-                  "label" : "summary",
-                  "placeholder" : "Summary"
-                }
-              },
               "playlist_id" : {
                 "type" : "Text",
                 "config" : {
@@ -410,18 +395,25 @@
         "useAsTitle" : true
       }
     },
+    "external_link" : {
+      "type" : "Link",
+      "config" : {
+        "label" : "external page link",
+        "placeholder" : "Do not create page details if there is an external link"
+      }
+    },
     "seo_title" : {
       "type" : "Text",
       "config" : {
-        "label" : "seo title",
-        "placeholder" : "seo title"
+        "label" : "meta title",
+        "placeholder" : "meta title"
       }
     },
     "seo_description" : {
       "type" : "Text",
       "config" : {
-        "label" : "seo description",
-        "placeholder" : "seo description"
+        "label" : "meta description",
+        "placeholder" : "meta description"
       }
     },
     "seo_keywords" : {
@@ -439,7 +431,7 @@
           "height" : null
         },
         "thumbnails" : [ ],
-        "label" : "social image"
+        "label" : "meta image"
       }
     }
   }
