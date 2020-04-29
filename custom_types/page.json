@@ -73,7 +73,9 @@
           "multi_image" : [ ],
           "video_collection" : [ ],
           "iframe" : [ ],
-          "youtube_section" : [ ]
+          "youtube_section" : [ ],
+          "youtube_grid_section" : [ ],
+          "property_map_section" : [ ]
         },
         "choices" : {
           "text" : {
@@ -377,6 +379,40 @@
                 "config" : {
                   "label" : "playlist id",
                   "placeholder" : "E.g. youtube playlist ID"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "youtube_grid_section" : {
+            "type" : "Slice",
+            "fieldset" : "Youtube Grid Section",
+            "description" : "Youtube Grid Section for a youtube playlist",
+            "icon" : "apps",
+            "display" : "grid",
+            "non-repeat" : {
+              "playlist_id" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "playlist id",
+                  "placeholder" : "Youtube playlist ID"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "property_map_section" : {
+            "type" : "Slice",
+            "fieldset" : "Property Map Section",
+            "description" : "A google map section",
+            "icon" : "map",
+            "display" : "list",
+            "non-repeat" : {
+              "full_address" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "full address",
+                  "placeholder" : "e.g. 32 100 Harris St Pyrmont, NSW, 2009"
                 }
               }
             },
