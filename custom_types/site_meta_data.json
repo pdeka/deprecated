@@ -488,7 +488,7 @@
     "home_page_name" : {
       "type" : "Select",
       "config" : {
-        "options" : [ "Property Home Page", "Agent Home Page", "Facebook Home Page", "Case Study Home Page", "Classic Business Home Page", "Classic Agency Home Page", "Portfolio Profile Home Page", "Property Home Page", "HASHTag Portal Home Page", "Property List Page", "Executive Home Page", "Agency Home Page", "Premium Agent Home Page", "Executive Home Page Version 2" ],
+        "options" : [ "Property Home Page", "Facebook Home Page", "Case Study Home Page", "Property Home Page", "Property List Page", "Executive Home Page", "Agency Home Page", "Premium Agent Home Page", "Executive Home Page Version 2" ],
         "default_value" : "Property Home Page",
         "label" : "home page name  (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)",
         "placeholder" : "Home Page Name"
