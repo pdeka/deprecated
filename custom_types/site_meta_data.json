@@ -517,6 +517,12 @@
       "type" : "Group",
       "config" : {
         "fields" : {
+          "full_name" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "full name"
+            }
+          },
           "email_address" : {
             "type" : "Text",
             "config" : {
