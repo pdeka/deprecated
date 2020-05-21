@@ -39,13 +39,6 @@
         "label" : "Date"
       }
     },
-    "price" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "price",
-        "placeholder" : "e.g. From Price"
-      }
-    },
     "body" : {
       "type" : "Slices",
       "fieldset" : "Slice zone",
@@ -450,6 +443,13 @@
       "config" : {
         "label" : "meta description",
         "placeholder" : "meta description"
+      }
+    },
+    "price" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "price",
+        "placeholder" : "e.g. From Price"
       }
     },
     "seo_keywords" : {
