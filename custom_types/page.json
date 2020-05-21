@@ -68,7 +68,8 @@
           "iframe" : [ ],
           "youtube_section" : [ ],
           "youtube_grid_section" : [ ],
-          "property_map_section" : [ ]
+          "property_map_section" : [ ],
+          "blog" : [ ]
         },
         "choices" : {
           "text" : {
@@ -406,6 +407,22 @@
                 "config" : {
                   "label" : "full address",
                   "placeholder" : "e.g. 32 100 Harris St Pyrmont, NSW, 2009"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "blog" : {
+            "type" : "Slice",
+            "fieldset" : "blog",
+            "description" : "blog",
+            "icon" : "content_paste",
+            "display" : "list",
+            "non-repeat" : {
+              "header" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "header"
                 }
               }
             },
