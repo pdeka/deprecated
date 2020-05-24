@@ -12,12 +12,6 @@
 		"value": "team_member_profile.json"
 	},
 	{
-		"id": "blog_home",
-		"name": "Blog Page",
-		"repeatable": false,
-		"value": "blog_page.json"
-	},
-	{
 		"id": "contact_page",
 		"name": "Contact Page",
 		"repeatable": false,
