@@ -33,12 +33,6 @@
         "label" : "author image"
       }
     },
-    "date" : {
-      "type" : "Date",
-      "config" : {
-        "label" : "Date"
-      }
-    },
     "body" : {
       "type" : "Slices",
       "fieldset" : "Slice zone",
@@ -441,10 +435,16 @@
         "useAsTitle" : true
       }
     },
+    "date" : {
+      "type" : "Date",
+      "config" : {
+        "label" : "Date"
+      }
+    },
     "external_link" : {
       "type" : "Link",
       "config" : {
-        "label" : "external page link",
+        "label" : "external link",
         "placeholder" : "Do not create page details if there is an external link"
       }
     },
