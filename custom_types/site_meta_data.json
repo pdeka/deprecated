@@ -427,6 +427,13 @@
     }
   },
   "IDs & Keys" : {
+    "agency_id": {
+      "type": "Text",
+      "config": {
+        "label": "agency id",
+        "placeholder": "i.e. PAIG"
+      }
+    },
     "google_analytics_id" : {
       "type" : "Text",
       "config" : {
