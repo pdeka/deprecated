@@ -33,6 +33,12 @@
         "label" : "author image"
       }
     },
+    "date" : {
+      "type" : "Date",
+      "config" : {
+        "label" : "Date"
+      }
+    },
     "body" : {
       "type" : "Slices",
       "fieldset" : "Slice zone",
@@ -63,7 +69,10 @@
           "youtube_section" : [ ],
           "youtube_grid_section" : [ ],
           "property_map_section" : [ ],
-          "blog" : [ ]
+          "blog" : [ ],
+          "featured_property" : [ ],
+          "full_page_media" : [ ],
+          "contact_us" : [ ]
         },
         "choices" : {
           "text" : {
@@ -421,6 +430,87 @@
               }
             },
             "repeat" : { }
+          },
+          "featured_property" : {
+            "type" : "Slice",
+            "fieldset" : "Feature Property ",
+            "description" : "property with description ",
+            "icon" : "wrap_text",
+            "display" : "list",
+            "non-repeat" : {
+              "header" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "header"
+                }
+              }
+            },
+            "repeat" : {
+              "property_id" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "property_id",
+                  "placeholder" : "i.e. 6802"
+                }
+              }
+            }
+          },
+          "full_page_media" : {
+            "type" : "Slice",
+            "fieldset" : "Full Page Media",
+            "description" : "full page media",
+            "icon" : "call_to_action",
+            "display" : "list",
+            "non-repeat" : {
+              "section_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph, strong, em",
+                  "label" : "section header",
+                  "placeholder" : "header"
+                }
+              },
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "image"
+                }
+              },
+              "video" : {
+                "config" : {
+                  "label" : "video",
+                  "placeholder" : "Enter video link..."
+                },
+                "type" : "Link"
+              },
+              "scroll_to" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "scroll to",
+                  "placeholder" : "ID to scroll to"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "contact_us" : {
+            "type" : "Slice",
+            "fieldset" : "Contact Us",
+            "description" : "contact us",
+            "icon" : "assignment_ind",
+            "display" : "list",
+            "non-repeat" : {
+              "header" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "header",
+                  "placeholder" : "e.g. contact us header"
+                }
+              }
+            },
+            "repeat" : { }
           }
         }
       }
@@ -435,16 +525,10 @@
         "useAsTitle" : true
       }
     },
-    "date" : {
-      "type" : "Date",
-      "config" : {
-        "label" : "Date"
-      }
-    },
     "external_link" : {
       "type" : "Link",
       "config" : {
-        "label" : "external link",
+        "label" : "external page link",
         "placeholder" : "Do not create page details if there is an external link"
       }
     },
