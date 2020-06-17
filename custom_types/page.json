@@ -72,7 +72,8 @@
           "blog" : [ ],
           "featured_property" : [ ],
           "full_page_media" : [ ],
-          "contact_us" : [ ]
+          "contact_us" : [ ],
+          "half_page_image" : [ ]
         },
         "choices" : {
           "text" : {
@@ -507,6 +508,52 @@
                 "config" : {
                   "label" : "header",
                   "placeholder" : "e.g. contact us header"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "half_page_image" : {
+            "type" : "Slice",
+            "fieldset" : "Half Page Image",
+            "description" : "Half image with auther and date",
+            "icon" : "image_aspect_ratio",
+            "display" : "list",
+            "non-repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "image"
+                }
+              },
+              "title_over_image" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading2, strong, em, list-item, o-list-item, o-list-item",
+                  "allowTargetBlank" : true,
+                  "label" : "title over image"
+                }
+              },
+              "author_profile_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "author profile image"
+                }
+              },
+              "author_name" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "author name"
+                }
+              },
+              "publish_date" : {
+                "type" : "Date",
+                "config" : {
+                  "label" : "publish date"
                 }
               }
             },
