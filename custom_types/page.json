@@ -73,7 +73,12 @@
           "featured_property" : [ ],
           "full_page_media" : [ ],
           "contact_us" : [ ],
-          "half_page_image" : [ ]
+          "half_page_image" : [ ],
+          "what_we_do" : [ ],
+          "call_to_action" : [ ],
+          "about_us" : [ ],
+          "contact_button" : [ ],
+          "news_letter_signup_form" : [ ]
         },
         "choices" : {
           "text" : {
@@ -444,6 +449,13 @@
                 "config" : {
                   "label" : "header"
                 }
+              },
+              "agency_id" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "agency_id",
+                  "placeholder" : "i.e. PAIG"
+                }
               }
             },
             "repeat" : {
@@ -492,6 +504,13 @@
                   "label" : "scroll to",
                   "placeholder" : "ID to scroll to"
                 }
+              },
+              "is_display_property_search" : {
+                "type" : "Boolean",
+                "config" : {
+                  "default_value" : false,
+                  "label" : "is display property search"
+                }
               }
             },
             "repeat" : { }
@@ -508,6 +527,12 @@
                 "config" : {
                   "label" : "header",
                   "placeholder" : "e.g. contact us header"
+                }
+              },
+              "summary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "summary"
                 }
               }
             },
@@ -531,15 +556,24 @@
               "title_over_image" : {
                 "type" : "StructuredText",
                 "config" : {
-                  "single" : "heading2, strong, em, list-item, o-list-item, o-list-item",
+                  "single" : "paragraph, strong, em",
                   "allowTargetBlank" : true,
                   "label" : "title over image"
+                }
+              },
+              "summary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "summary"
                 }
               },
               "author_profile_image" : {
                 "type" : "Image",
                 "config" : {
-                  "constraint" : { },
+                  "constraint" : {
+                    "width" : 100,
+                    "height" : 100
+                  },
                   "thumbnails" : [ ],
                   "label" : "author profile image"
                 }
@@ -554,6 +588,185 @@
                 "type" : "Date",
                 "config" : {
                   "label" : "publish date"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "what_we_do" : {
+            "type" : "Slice",
+            "fieldset" : "What We Do",
+            "description" : "what we do...",
+            "icon" : "group",
+            "display" : "list",
+            "non-repeat" : {
+              "what_we_do_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em",
+                  "label" : "what we do header"
+                }
+              },
+              "what_we_do_summary" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em, hyperlink",
+                  "allowTargetBlank" : true,
+                  "label" : "what we do summary",
+                  "placeholder" : "Summary"
+                }
+              },
+              "what_we_do_details_link" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "what we do details link",
+                  "placeholder" : "Internal link"
+                }
+              },
+              "what_we_do_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "what we do image"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "call_to_action" : {
+            "type" : "Slice",
+            "fieldset" : "Call To Action",
+            "description" : "call to action",
+            "icon" : "call",
+            "display" : "list",
+            "non-repeat" : {
+              "call_to_action_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "call to action image"
+                }
+              },
+              "call_to_action_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em, hyperlink",
+                  "label" : "call to action header",
+                  "placeholder" : "header"
+                }
+              },
+              "call_to_action_link" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "call to action link",
+                  "placeholder" : "action link"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "about_us" : {
+            "type" : "Slice",
+            "fieldset" : "About Us",
+            "description" : "Why we use",
+            "icon" : "people_outline",
+            "display" : "grid",
+            "non-repeat" : {
+              "about_us_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em",
+                  "label" : "about us header",
+                  "placeholder" : "header"
+                }
+              },
+              "about_us_summary" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em, hyperlink",
+                  "label" : "about us summary",
+                  "placeholder" : "summary"
+                }
+              },
+              "find_out_more_link" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "find out more link",
+                  "placeholder" : "find out more link"
+                }
+              }
+            },
+            "repeat" : {
+              "about_image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "about image"
+                }
+              }
+            }
+          },
+          "contact_button" : {
+            "type" : "Slice",
+            "fieldset" : "Contact Button",
+            "description" : "Contact us button with header and background image",
+            "icon" : "contact_phone",
+            "display" : "list",
+            "non-repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "image"
+                }
+              },
+              "contact_button_image_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph, strong, em",
+                  "label" : "contact button image header"
+                }
+              },
+              "button_text" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "button text",
+                  "placeholder" : "i.e. Contact"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "news_letter_signup_form" : {
+            "type" : "Slice",
+            "fieldset" : "News Letter SignUp Form",
+            "description" : "News letter sign up form",
+            "icon" : "near_me",
+            "display" : "list",
+            "non-repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "image"
+                }
+              },
+              "news_letter_section_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph, strong, em",
+                  "label" : "news letter section header"
+                }
+              },
+              "summary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "summary"
                 }
               }
             },
