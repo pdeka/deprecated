@@ -78,7 +78,8 @@
           "call_to_action" : [ ],
           "about_us" : [ ],
           "contact_button" : [ ],
-          "news_letter_signup_form" : [ ]
+          "news_letter_signup_form" : [ ],
+          "testimonial" : [ ]
         },
         "choices" : {
           "text" : {
@@ -771,6 +772,69 @@
               }
             },
             "repeat" : { }
+          },
+          "testimonial" : {
+            "type" : "Slice",
+            "fieldset" : "Testimonial",
+            "description" : "testimonial",
+            "icon" : "child_care",
+            "display" : "list",
+            "non-repeat" : {
+              "testimonial_section_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "paragraph, strong, em",
+                  "label" : "testimonial section header",
+                  "placeholder" : "section header"
+                }
+              }
+            },
+            "repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "image"
+                }
+              },
+              "author" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "author",
+                  "placeholder" : "author"
+                }
+              },
+              "quote" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "quote",
+                  "placeholder" : "quote"
+                }
+              },
+              "description" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "description",
+                  "placeholder" : "description"
+                }
+              },
+              "date" : {
+                "type" : "Date",
+                "config" : {
+                  "label" : "date",
+                  "placeholder" : "date"
+                }
+              },
+              "testimonial_external_link" : {
+                "type" : "Link",
+                "config" : {
+                  "allowTargetBlank" : true,
+                  "label" : "testimonial external link",
+                  "placeholder" : "external link"
+                }
+              }
+            }
           }
         }
       }
