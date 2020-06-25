@@ -7,38 +7,6 @@
         "placeholder" : "title"
       }
     },
-    "header_image" : {
-      "type" : "Image",
-      "config" : {
-        "constraint" : { },
-        "thumbnails" : [ ],
-        "label" : "header image"
-      }
-    },
-    "author" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "author",
-        "placeholder" : "author"
-      }
-    },
-    "author_image" : {
-      "type" : "Image",
-      "config" : {
-        "constraint" : {
-          "width" : 100,
-          "height" : 100
-        },
-        "thumbnails" : [ ],
-        "label" : "author image"
-      }
-    },
-    "date" : {
-      "type" : "Date",
-      "config" : {
-        "label" : "Date"
-      }
-    },
     "body" : {
       "type" : "Slices",
       "fieldset" : "Slice zone",
@@ -79,7 +47,8 @@
           "about_us" : [ ],
           "contact_button" : [ ],
           "news_letter_signup_form" : [ ],
-          "testimonial" : [ ]
+          "testimonial" : [ ],
+          "property_search" : [ ]
         },
         "choices" : {
           "text" : {
@@ -835,6 +804,31 @@
                 }
               }
             }
+          },
+          "property_search" : {
+            "type" : "Slice",
+            "fieldset" : "Property Search",
+            "description" : "property list page search component ",
+            "icon" : "search",
+            "display" : "list",
+            "non-repeat" : {
+              "property_search_header" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph, strong, em",
+                  "label" : "property search header",
+                  "placeholder" : "header"
+                }
+              },
+              "summary" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "summary",
+                  "placeholder" : "summary"
+                }
+              }
+            },
+            "repeat" : { }
           }
         }
       }
