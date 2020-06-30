@@ -445,6 +445,14 @@
             "icon" : "call_to_action",
             "display" : "list",
             "non-repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ ],
+                  "label" : "image"
+                }
+              },
               "section_header" : {
                 "type" : "StructuredText",
                 "config" : {
@@ -453,12 +461,11 @@
                   "placeholder" : "header"
                 }
               },
-              "image" : {
-                "type" : "Image",
+              "summary" : {
+                "type" : "Text",
                 "config" : {
-                  "constraint" : { },
-                  "thumbnails" : [ ],
-                  "label" : "image"
+                  "label" : "summary",
+                  "placeholder" : "summary"
                 }
               },
               "video" : {
