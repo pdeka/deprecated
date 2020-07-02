@@ -33,7 +33,6 @@
           "documents" : [ ],
           "multi_image" : [ ],
           "video_collection" : [ ],
-          "iframe" : [ ],
           "youtube_section" : [ ],
           "youtube_grid_section" : [ ],
           "property_map_section" : [ ],
@@ -272,44 +271,6 @@
                 }
               }
             }
-          },
-          "iframe" : {
-            "type" : "Slice",
-            "fieldset" : "Iframe",
-            "description" : "iframe",
-            "icon" : "border_all",
-            "display" : "list",
-            "non-repeat" : {
-              "header" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "header",
-                  "placeholder" : "E.g. Header to be used with the iframe component"
-                }
-              },
-              "src" : {
-                "type" : "Link",
-                "config" : {
-                  "label" : "src",
-                  "placeholder" : "E.g. Any link to a page that can be embedded as an iframe"
-                }
-              },
-              "iframe_width" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "iframe width",
-                  "placeholder" : "e.g. Width as 100% or 1200px"
-                }
-              },
-              "iframe_height" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "iframe height",
-                  "placeholder" : "E.g. height as 1200px"
-                }
-              }
-            },
-            "repeat" : { }
           },
           "case_study" : {
             "type" : "Slice",
