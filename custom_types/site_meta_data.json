@@ -491,25 +491,6 @@
       }
     }
   },
-  "Home Page & Footer" : {
-    "home_page_name" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "Property Home Page", "Facebook Home Page", "Case Study Home Page", "Property Home Page", "Property List Page", "Executive Home Page", "Agency Home Page", "Premium Agent Home Page", "Executive Home Page Version 2" ],
-        "default_value" : "Property Home Page",
-        "label" : "home page name  (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)",
-        "placeholder" : "Home Page Name"
-      }
-    },
-    "footer_name" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "Executive Footer", "Premium Agent Footer", "Agency Footer" ],
-        "default_value" : "Executive Footer",
-        "label" : "footer name  (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
-      }
-    }
-  },
   "Auth" : {
     "authenticate_properties_with_password" : {
       "type" : "Boolean",

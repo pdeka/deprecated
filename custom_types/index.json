@@ -1,117 +1,14 @@
 [
 	{
-		"id": "facebook_home",
-		"name": "Facebook Page",
-		"repeatable": false,
-		"value": "facebook_page.json"
-	},
-	{
-		"id": "team_member_profile",
-		"name": "Team Member Profile",
-		"repeatable": true,
-		"value": "team_member_profile.json"
-	},
-	{
-		"id": "contact_page",
-		"name": "Contact Page",
-		"repeatable": false,
-		"value": "contact_page.json"
-	},
-	{
 		"id": "post",
 		"name": "Page",
 		"repeatable": true,
 		"value": "page.json"
 	},
 	{
-		"id": "testimonial",
-		"name": "Testimonials",
-		"repeatable": false,
-		"value": "testimonials.json"
-	},
-	{
-		"id": "testimonial_page",
-		"name": "Testimonial Page",
-		"repeatable": false,
-		"value": "testimonial_page.json"
-	},
-	{
 		"id": "site_meta_data",
 		"name": "Site Meta Data",
 		"repeatable": false,
 		"value": "site_meta_data.json"
-	},
-	{
-		"id": "footer",
-		"name": "Footer",
-		"repeatable": false,
-		"value": "footer.json"
-	},
-  {
-    "id": "property_page",
-    "name": "Property Page",
-    "repeatable": false,
-    "value": "property_page.json"
-  },
-	{
-		"id": "agency_home_page",
-		"name": "Agency Home Page",
-		"repeatable": false,
-		"value": "./homepages/agency_home_page.json"
-	},
-	{
-		"id": "case_study_home_page",
-		"name": "Case Study Home Page",
-		"repeatable": false,
-		"value": "./homepages/case_study_home_page.json"
-	},
-	{
-		"id": "home",
-		"name": "Executive Home Page",
-		"repeatable": false,
-		"value": "./homepages/executive_home_page.json"
-	},
-	{
-		"id": "facebook_home_page",
-		"name": "Facebook Home Page",
-		"repeatable": false,
-		"value": "./homepages/facebook_home_page.json"
-	},
-	{
-		"id": "premium_agent_home_page",
-		"name": "Premium Agent Home Page",
-		"repeatable": false,
-		"value": "./homepages/premium_agent_home_page.json"
-	},
-	{
-		"id": "property_home_page",
-		"name": "Property Home Page",
-		"repeatable": false,
-		"value": "./homepages/property_home_page.json"
-	},
-	{
-		"id": "classic_business_home_page",
-		"name": "Classic Business Home Page",
-		"repeatable": false,
-		"value": "./homepages/classic_business_home_page.json"
-	},
-	{
-		"id": "portfolio_profile_home_page",
-		"name": "Portfolio Profile Home Page",
-		"repeatable": false,
-		"value": "./homepages/portfolio_profile_home_page.json"
-	},
-	{
-		"id": "classic_agency_home_page",
-		"name": "Classic Agency Home Page",
-		"repeatable": false,
-		"value": "./homepages/classic_agency_home_page.json"
-	},
-    {
-      "id": "vlog_page",
-      "name": "Vlog Page",
-      "repeatable": false,
-      "value": "vlog_page.json"
-    }
-
+	}
 ]
