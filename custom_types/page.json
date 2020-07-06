@@ -47,7 +47,8 @@
           "contact_button" : [ ],
           "news_letter_signup_form" : [ ],
           "testimonial" : [ ],
-          "property_search" : [ ]
+          "property_search" : [ ],
+          "external_widget" : [ ]
         },
         "choices" : {
           "text" : {
@@ -793,6 +794,23 @@
                 "config" : {
                   "label" : "summary",
                   "placeholder" : "summary"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "external_widget" : {
+            "type" : "Slice",
+            "fieldset" : "External Widget",
+            "description" : "External Widget i.e elfsight",
+            "icon" : "widgets",
+            "display" : "list",
+            "non-repeat" : {
+              "id" : {
+                "type" : "Text",
+                "config" : {
+                  "label" : "id",
+                  "placeholder" : "i.e. elfsight-app-3d402b48-3115-4912-b9bc-f5ba"
                 }
               }
             },
