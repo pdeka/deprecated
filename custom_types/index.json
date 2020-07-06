@@ -1,14 +1,14 @@
 [
-	{
-		"id": "post",
-		"name": "Page",
-		"repeatable": true,
-		"value": "page.json"
-	},
-	{
-		"id": "site_meta_data",
-		"name": "Site Meta Data",
-		"repeatable": false,
-		"value": "site_meta_data.json"
-	}
+  {
+    "id": "post",
+    "name": "Page",
+    "repeatable": true,
+    "value": "page.json"
+  },
+  {
+    "id": "site_meta_data",
+    "name": "Site Meta Data",
+    "repeatable": false,
+    "value": "site_meta_data.json"
+  }
 ]
