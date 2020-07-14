@@ -388,6 +388,13 @@
                   "label" : "agency_id",
                   "placeholder" : "i.e. PAIG"
                 }
+              },
+              "see_more_link": {
+                "type": "Text",
+                "config": {
+                  "label": "see more link",
+                  "placeholder": "i.e. /properties"
+                }
               }
             },
             "repeat" : {
