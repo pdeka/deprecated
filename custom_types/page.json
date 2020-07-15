@@ -647,10 +647,13 @@
             "repeat" : {
               "about_image" : {
                 "type" : "Image",
-                "config" : {
-                  "constraint" : { },
-                  "thumbnails" : [ ],
-                  "label" : "about image"
+                "config": {
+                  "constraint": {
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "thumbnails": [],
+                  "label": "about image"
                 }
               }
             }
