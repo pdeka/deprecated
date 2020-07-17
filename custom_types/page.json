@@ -48,7 +48,8 @@
           "news_letter_signup_form" : [ ],
           "testimonial" : [ ],
           "property_search" : [ ],
-          "external_widget" : [ ]
+          "external_widget" : [ ],
+          "featured_case_study" : [ ]
         },
         "choices" : {
           "text" : {
@@ -825,6 +826,38 @@
               }
             },
             "repeat" : { }
+          },
+          "featured_case_study": {
+            "type": "Slice",
+            "fieldset": "Featured Case Study",
+            "description": "Featured Case Study",
+            "icon": "view_module",
+            "display": "list",
+            "non-repeat": {
+              "featured_case_study_header": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, strong, em",
+                  "label": "featured case study header",
+                  "placeholder": "i.e. Explore Our Brand New Properties"
+                }
+              },
+              "summary": {
+                "type": "Text",
+                "config": {
+                  "label": "summary",
+                  "placeholder": "summary"
+                }
+              }
+            },
+            "see_more_link": {
+              "type": "Text",
+              "config": {
+                "label": "see more link",
+                "placeholder": "i.e. /properties (optional)"
+              }
+            },
+            "repeat": {}
           }
         }
       }
