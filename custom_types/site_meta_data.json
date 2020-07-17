@@ -469,25 +469,11 @@
         "placeholder" : "e.g. AIzaSyDYcCAELv8EBv7..."
       }
     },
-    "facebook_review_key" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "facebook review key",
-        "placeholder" : "E.g. an elfsight key"
-      }
-    },
-    "google_review_key" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "google review key",
-        "placeholder" : "E.g. an elfsight key"
-      }
-    },
-    "appraisal_form_key" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "appraisal form key",
-        "placeholder" : "E.g. Paperform key"
+    "visitor_count_key": {
+      "type": "Text",
+      "config": {
+        "label": "visitor count key",
+        "placeholder": "elfsight-app-e16c0b78-fb64-428b-80c0-d10"
       }
     }
   },
