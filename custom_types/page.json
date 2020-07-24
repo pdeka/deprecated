@@ -848,13 +848,13 @@
                   "label": "summary",
                   "placeholder": "summary"
                 }
-              }
-            },
-            "see_more_link": {
-              "type": "Text",
-              "config": {
-                "label": "see more link",
-                "placeholder": "i.e. /properties (optional)"
+              },
+              "see_more_link": {
+                "type": "Text",
+                "config": {
+                  "label": "see more link",
+                  "placeholder": "i.e. /properties (optional)"
+                }
               }
             },
             "repeat": {}
