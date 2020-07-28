@@ -49,7 +49,8 @@
           "testimonial" : [ ],
           "property_search" : [ ],
           "external_widget" : [ ],
-          "featured_case_study" : [ ]
+          "featured_case_study" : [ ],
+          "multi_address_map": [ ]
         },
         "choices" : {
           "text" : {
@@ -857,6 +858,15 @@
                 }
               }
             },
+            "repeat": {}
+          },
+          "multi_address_map": {
+            "type": "Slice",
+            "fieldset": "Multi Address Map",
+            "description": "map with all properties in cluster",
+            "icon": "zoom_out_map",
+            "display": "list",
+            "non-repeat": {},
             "repeat": {}
           }
         }
