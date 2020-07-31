@@ -855,7 +855,7 @@
           "map_section" : {
             "type" : "Slice",
             "fieldset" : "Map Section",
-            "description" : "Googlw map with geo location",
+            "description" : "Google map with geo location",
             "icon" : "location_on",
             "display" : "list",
             "non-repeat" : {
