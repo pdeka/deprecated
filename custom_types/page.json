@@ -35,7 +35,6 @@
           "video_collection" : [ ],
           "youtube_section" : [ ],
           "youtube_grid_section" : [ ],
-          "property_map_section" : [ ],
           "blog" : [ ],
           "featured_property" : [ ],
           "full_page_media" : [ ],
@@ -49,7 +48,9 @@
           "testimonial" : [ ],
           "property_search" : [ ],
           "external_widget" : [ ],
-          "featured_case_study" : [ ]
+          "featured_case_study" : [ ],
+          "multi_address_map": [ ],
+          "map_section" : [ ]
         },
         "choices" : {
           "text" : {
@@ -332,23 +333,6 @@
                 "config" : {
                   "label" : "playlist id",
                   "placeholder" : "Youtube playlist ID"
-                }
-              }
-            },
-            "repeat" : { }
-          },
-          "property_map_section" : {
-            "type" : "Slice",
-            "fieldset" : "Property Map Section",
-            "description" : "A google map section",
-            "icon" : "map",
-            "display" : "list",
-            "non-repeat" : {
-              "full_address" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "full address",
-                  "placeholder" : "e.g. 32 100 Harris St Pyrmont, NSW, 2009"
                 }
               }
             },
@@ -858,6 +842,31 @@
               }
             },
             "repeat": {}
+          },
+          "multi_address_map": {
+            "type": "Slice",
+            "fieldset": "Multi Address Map",
+            "description": "map with all properties in cluster",
+            "icon": "zoom_out_map",
+            "display": "list",
+            "non-repeat": {},
+            "repeat": {}
+          },
+          "map_section" : {
+            "type" : "Slice",
+            "fieldset" : "Map Section",
+            "description" : "Googlw map with geo location",
+            "icon" : "location_on",
+            "display" : "list",
+            "non-repeat" : {
+              "location" : {
+                "type" : "GeoPoint",
+                "config" : {
+                  "label" : "location"
+                }
+              }
+            },
+            "repeat" : { }
           }
         }
       }
