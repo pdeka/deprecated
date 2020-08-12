@@ -434,6 +434,13 @@
         "placeholder" : "i.e. PAIG"
       }
     },
+    "agent_box_agency_id" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "agent box agency id",
+        "placeholder" : "i.e. 1A83B989277C8BED61456798"
+      }
+    },
     "google_analytics_id" : {
       "type" : "Text",
       "config" : {
