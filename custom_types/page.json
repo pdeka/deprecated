@@ -790,6 +790,13 @@
                   "label" : "summary",
                   "placeholder" : "summary"
                 }
+              },
+              "is_show_map": {
+                "type": "Boolean",
+                "config": {
+                  "default_value": true,
+                  "label": "is show map"
+                }
               }
             },
             "repeat" : { }
