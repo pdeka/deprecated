@@ -790,13 +790,6 @@
                   "label" : "summary",
                   "placeholder" : "summary"
                 }
-              },
-              "is_show_map": {
-                "type": "Boolean",
-                "config": {
-                  "default_value": true,
-                  "label": "is show map"
-                }
               }
             },
             "repeat" : { }
@@ -856,7 +849,23 @@
             "description": "map with all properties in cluster",
             "icon": "zoom_out_map",
             "display": "list",
-            "non-repeat": {},
+            "non-repeat": {
+              "multi_address_map_header": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, strong, em",
+                  "label": "multi address map header",
+                  "placeholder": "i.e. header"
+                }
+              },
+              "multi_address_map_summary": {
+                "type": "Text",
+                "config": {
+                  "label": "multi address map summary",
+                  "placeholder": "i.e. summary"
+                }
+              }
+            },
             "repeat": {}
           },
           "map_section" : {
