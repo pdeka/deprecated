@@ -434,13 +434,6 @@
         "placeholder" : "i.e. PAIG"
       }
     },
-    "agent_box_agency_id" : {
-      "type" : "Text",
-      "config" : {
-        "label" : "agent box agency id",
-        "placeholder" : "i.e. 1A83B989277C8BED61456798"
-      }
-    },
     "google_analytics_id" : {
       "type" : "Text",
       "config" : {
@@ -518,6 +511,32 @@
           }
         },
         "label" : "users"
+      }
+    },
+    "admin_users" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "full_name" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "full name"
+            }
+          },
+          "email_address" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "email address"
+            }
+          },
+          "password" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "password"
+            }
+          }
+        },
+        "label" : "admin users"
       }
     }
   },
