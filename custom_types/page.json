@@ -50,7 +50,8 @@
           "external_widget" : [ ],
           "featured_case_study" : [ ],
           "multi_address_map": [ ],
-          "map_section" : [ ]
+          "map_section" : [ ],
+          "property_search_with_map" : [ ]
         },
         "choices" : {
           "text" : {
@@ -783,13 +784,6 @@
                   "label" : "property search header",
                   "placeholder" : "header"
                 }
-              },
-              "summary" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "summary",
-                  "placeholder" : "summary"
-                }
               }
             },
             "repeat" : { }
@@ -882,6 +876,15 @@
                 }
               }
             },
+            "repeat" : { }
+          },
+          "property_search_with_map" : {
+            "type" : "Slice",
+            "fieldset" : "Property Search With Map",
+            "description" : "proeprty search with map",
+            "icon" : "youtube_searched_for",
+            "display" : "list",
+            "non-repeat" : { },
             "repeat" : { }
           }
         }
