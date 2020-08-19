@@ -508,35 +508,16 @@
             "config" : {
               "label" : "password"
             }
+          },
+          "admin" : {
+            "type" : "Boolean",
+            "config" : {
+              "default_value" : false,
+              "label" : "admin"
+            }
           }
         },
         "label" : "users"
-      }
-    },
-    "admin_users" : {
-      "type" : "Group",
-      "config" : {
-        "fields" : {
-          "full_name" : {
-            "type" : "Text",
-            "config" : {
-              "label" : "full name"
-            }
-          },
-          "email_address" : {
-            "type" : "Text",
-            "config" : {
-              "label" : "email address"
-            }
-          },
-          "password" : {
-            "type" : "Text",
-            "config" : {
-              "label" : "password"
-            }
-          }
-        },
-        "label" : "admin users"
       }
     }
   },
