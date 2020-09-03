@@ -240,7 +240,7 @@
     "transparent_navigation_bar" : {
       "type" : "Boolean",
       "config" : {
-        "default_value" : true,
+        "default_value" : false,
         "label" : "transparent navigation bar (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
