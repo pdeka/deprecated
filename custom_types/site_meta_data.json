@@ -255,7 +255,7 @@
       "type" : "Select",
       "config" : {
         "options" : [ "LIGHT", "DARK" ],
-        "default_value" : "LIGHT",
+        "default_value" : "DARK",
         "label" : "PAIG logo default shade (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
