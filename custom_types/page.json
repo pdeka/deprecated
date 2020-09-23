@@ -28,7 +28,6 @@
             "name" : "full",
             "display" : "Full"
           } ],
-          "embed" : [ ],
           "video" : [ ],
           "documents" : [ ],
           "multi_image" : [ ],
@@ -155,23 +154,6 @@
                 "config" : {
                   "label" : "external video link",
                   "placeholder" : "external video link"
-                }
-              }
-            },
-            "repeat" : { }
-          },
-          "embed" : {
-            "type" : "Slice",
-            "fieldset" : "Embed",
-            "description" : "Embed Iframe",
-            "icon" : "featured_video",
-            "display" : "list",
-            "non-repeat" : {
-              "embed_link" : {
-                "type" : "Embed",
-                "config" : {
-                  "label" : "embed link",
-                  "placeholder" : "embed link"
                 }
               }
             },
