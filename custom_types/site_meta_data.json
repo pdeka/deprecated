@@ -328,23 +328,6 @@
         "label" : "show properties (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
-    "property_state" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "ALL", "NSW", "VIC", "QLD", "SA", "WA", "NT", "TAS", "ACT" ],
-        "default_value" : "ALL",
-        "label" : "property state (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)",
-        "placeholder" : "ALL"
-      }
-    },
-    "strategy_type" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "ALL", "Buy Renovate Sell or Hold Real Estate", "Commercial Real Estate", "Developments in Real Estate", "Existing Real Estate for Sale", "Granny Flat Real Estate", "House & Land Packages Real Estate", "New Land Estates", "Off the Plan Real Estate", "Overseas Real Estate", "Super Fund Real Estate" ],
-        "default_value" : "ALL",
-        "label" : "strategy type (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
-      }
-    },
     "property_type" : {
       "type" : "Select",
       "config" : {
@@ -353,36 +336,13 @@
         "label" : "property type (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
-    "b2b_partner" : {
+    "property_state" : {
       "type" : "Select",
       "config" : {
-        "options" : [ "ALL", "Abode Agents", "All Property People", "Area Specialist", "Asia Pacific Wealth Property Group", "Aus Homes", "Australasian Homes", "Australian Residential Group", "Avanti", "BHL", "Beaumont", "Better Buildings Realty", "Black Stone & Co", "Brass Homes", "Brolen Homes", "Brookfield Homes", "BuildQ Group", "Caever Developments", "Catapult Group", "Celestino", "Charles Lloyd Property Group", "Choice Homes", "Citywide Commercial Group", "Clearstate", "Colliers International", "Collins House Property", "Creation Homes", "Crownland Developments", "DTZ Building Design", "Dart West Developments", "Davrose Homes", "Designer Living Homes", "E-Property", "Eagle Homes", "FRD Group", "Fairmont Homes", "First National Real Estate", "Frasers Property", "G Developments", "GC Realty", "Gallery Homes", "Geocon", "Glenvill", "Golden Land Capital Group", "Goldfields Group", "Goldmate Group", "Greenfields", "Harridan", "Hermitage Homes", "Hillscorp", "Homecorp", "IPPA", "Impact Developments", "Impact Homes", "Koham Property Group", "Laing and Simmons", "Lanecorp", "Limousin Developments", "Linden Wise", "Linked Group", "MPT Property Group", "Macarthur Developments", "Masters Empire Group", "Mayuresh", "McDonald Jones Homes", "McGrath Land", "Meriton Group", "Metinvest", "Metro Property Development", "Michael Wang", "Monarch Investments", "Multi Dynamic", "NMH Advisory", "Nash Land", "Neptune Homes", "New Vision Real Estate", "Noble Invest", "Nova Core Group", "Opal SS Constructions", "Oracle Building Corporation", "Ozii International Group", "Ozland Developer Group", "PW Realty", "Patrick York", "Pro-Active Investment Group", "QPG", "Qartaba Homes", "Rawson Communitites", "Ray White", "Realty1", "Ridge Homes", "Rivergum Homes", "Rudder Group", "SMP Property", "Sachii Real Estate", "Seven Buildings", "Shape Homes", "Signature Group", "Silkwood Homes", "Simonds Retail", "South Coast Building Group", "Star Homes", "Starr Partners", "Stocklist", "Stone Projects", "Sunland Group", "Sunvista Homes", "Tempo Invest", "Tempo Living", "The Bathla Group", "The Cameron Bird Group", "Thomas Paul Constructions", "Thrive Homes", "Transpire Group", "Trask Land", "Trendsetter Real Estate", "Tribeca Homes", "Uniting Realty", "Urban Land Housing", "Vestbuild", "Village Building Company", "Villaworld", "Vision Homes", "Vogue Homes", "Vystal Property Group", "Winhome", "Wisdom Homes", "Zac Homes" ],
+        "options" : [ "ALL", "NSW", "VIC", "QLD", "SA", "WA", "NT", "TAS", "ACT" ],
         "default_value" : "ALL",
-        "label" : "b2b partner (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
-      }
-    },
-    "strategy_type_disabled" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "false", "true" ],
-        "default_value" : "true",
-        "label" : "strategy type disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
-      }
-    },
-    "property_type_disabled" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "false", "true" ],
-        "default_value" : "false",
-        "label" : "property type disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
-      }
-    },
-    "b2b_partner_disabled" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "false", "true" ],
-        "default_value" : "true",
-        "label" : "b2b partner disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+        "label" : "property state (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)",
+        "placeholder" : "ALL"
       }
     },
     "min_price" : {
@@ -399,6 +359,76 @@
         "options" : [ "Any", "50000", "100000", "150000", "200000", "250000", "300000", "350000", "400000", "450000", "500000", "550000", "600000", "650000", "700000", "750000", "800000", "850000", "900000", "950000", "1000000", "1500000", "2000000", "2500000", "3000000", "3500000", "4000000" ],
         "default_value" : "Any",
         "label" : "max price (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+      }
+    },
+    "status": {
+      "type": "Select",
+      "config": {
+        "options": [
+          "ALL",
+          "Available",
+          "Off Market",
+          "On Hold",
+          "Selling Fast",
+          "Sold",
+          "Under Contract",
+          "Under EOI",
+          "Under Offer",
+          "Under Sales Advice"
+        ],
+        "default_value": "ALL",
+        "label": "status"
+      }
+    },
+    "strategy_type" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "ALL", "Buy Renovate Sell or Hold Real Estate", "Commercial Real Estate", "Developments in Real Estate", "Existing Real Estate for Sale", "Granny Flat Real Estate", "House & Land Packages Real Estate", "New Land Estates", "Off the Plan Real Estate", "Overseas Real Estate", "Super Fund Real Estate" ],
+        "default_value" : "ALL",
+        "label" : "strategy type (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+      }
+    },
+    "b2b_partner" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "ALL", "Abode Agents", "All Property People", "Area Specialist", "Asia Pacific Wealth Property Group", "Aus Homes", "Australasian Homes", "Australian Residential Group", "Avanti", "BHL", "Beaumont", "Better Buildings Realty", "Black Stone & Co", "Brass Homes", "Brolen Homes", "Brookfield Homes", "BuildQ Group", "Caever Developments", "Catapult Group", "Celestino", "Charles Lloyd Property Group", "Choice Homes", "Citywide Commercial Group", "Clearstate", "Colliers International", "Collins House Property", "Creation Homes", "Crownland Developments", "DTZ Building Design", "Dart West Developments", "Davrose Homes", "Designer Living Homes", "E-Property", "Eagle Homes", "FRD Group", "Fairmont Homes", "First National Real Estate", "Frasers Property", "G Developments", "GC Realty", "Gallery Homes", "Geocon", "Glenvill", "Golden Land Capital Group", "Goldfields Group", "Goldmate Group", "Greenfields", "Harridan", "Hermitage Homes", "Hillscorp", "Homecorp", "IPPA", "Impact Developments", "Impact Homes", "Koham Property Group", "Laing and Simmons", "Lanecorp", "Limousin Developments", "Linden Wise", "Linked Group", "MPT Property Group", "Macarthur Developments", "Masters Empire Group", "Mayuresh", "McDonald Jones Homes", "McGrath Land", "Meriton Group", "Metinvest", "Metro Property Development", "Michael Wang", "Monarch Investments", "Multi Dynamic", "NMH Advisory", "Nash Land", "Neptune Homes", "New Vision Real Estate", "Noble Invest", "Nova Core Group", "Opal SS Constructions", "Oracle Building Corporation", "Ozii International Group", "Ozland Developer Group", "PW Realty", "Patrick York", "Pro-Active Investment Group", "QPG", "Qartaba Homes", "Rawson Communitites", "Ray White", "Realty1", "Ridge Homes", "Rivergum Homes", "Rudder Group", "SMP Property", "Sachii Real Estate", "Seven Buildings", "Shape Homes", "Signature Group", "Silkwood Homes", "Simonds Retail", "South Coast Building Group", "Star Homes", "Starr Partners", "Stocklist", "Stone Projects", "Sunland Group", "Sunvista Homes", "Tempo Invest", "Tempo Living", "The Bathla Group", "The Cameron Bird Group", "Thomas Paul Constructions", "Thrive Homes", "Transpire Group", "Trask Land", "Trendsetter Real Estate", "Tribeca Homes", "Uniting Realty", "Urban Land Housing", "Vestbuild", "Village Building Company", "Villaworld", "Vision Homes", "Vogue Homes", "Vystal Property Group", "Winhome", "Wisdom Homes", "Zac Homes" ],
+        "default_value" : "ALL",
+        "label" : "b2b partner (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+      }
+    },
+    "property_type_disabled" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "false", "true" ],
+        "default_value" : "false",
+        "label" : "property type disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+      }
+    },
+    "status_disabled": {
+      "type": "Select",
+      "config": {
+        "options": [
+          "false",
+          "true"
+        ],
+        "default_value": "true",
+        "label" : "status disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+      }
+    },
+    "strategy_type_disabled" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "false", "true" ],
+        "default_value" : "true",
+        "label" : "strategy type disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+      }
+    },
+    "b2b_partner_disabled" : {
+      "type" : "Select",
+      "config" : {
+        "options" : [ "false", "true" ],
+        "default_value" : "true",
+        "label" : "b2b partner disabled (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
       }
     },
     "sort_by" : {
