@@ -377,7 +377,8 @@
           "Under Sales Advice"
         ],
         "default_value": "ALL",
-        "label": "status"
+        "label" : "status (<a href=\"https://kenekt.com.au/how-to-change-site-configuration\" target=\"_blank\">Read before changing</a>)"
+
       }
     },
     "strategy_type" : {
