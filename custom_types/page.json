@@ -344,10 +344,11 @@
             "icon" : "wrap_text",
             "display" : "list",
             "non-repeat" : {
-              "header" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "header"
+              "featured_property_header": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "paragraph, strong, em",
+                  "label": "featured property header"
                 }
               },
               "agency_id" : {
