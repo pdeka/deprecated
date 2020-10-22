@@ -365,15 +365,6 @@
                   "placeholder": "i.e. /properties"
                 }
               }
-            },
-            "repeat" : {
-              "property_id" : {
-                "type" : "Text",
-                "config" : {
-                  "label" : "property_id",
-                  "placeholder" : "i.e. 6802"
-                }
-              }
             }
           },
           "full_page_media" : {
